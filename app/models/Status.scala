@@ -5,5 +5,5 @@ package models
  */
 object Status extends Enumeration{
   type Status = Value
-  val Open, Closed, Pause = Value
+  val Open, Closed = Value
 }
