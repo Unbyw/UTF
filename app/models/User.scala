@@ -10,8 +10,8 @@ trait User {var user_id: Long
             var password: String
             var mail: String
             var enabled: Boolean
-            var manager: Long
             var stream_id: Long
+            var manager: User
 }
 
 

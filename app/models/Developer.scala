@@ -10,7 +10,7 @@ case class Developer(user_id: Long
                     ,password: String
                     ,mail: String
                     ,enabled: Boolean
-                    ,manager: Long
-                    ,stream_id: Long)extends  User{
+                    ,stream_id: Long
+                    ,manager: User)extends  User{
 
 }

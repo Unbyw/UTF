@@ -10,4 +10,6 @@ trait Task {var id: Long
             var description: String
             var budget: Double
             var creationDate: Date
+            var severity: Severity.Severity
+            var status: Status.Status
 }

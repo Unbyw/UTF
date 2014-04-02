@@ -7,7 +7,8 @@ import scala.collection.mutable
 case class Category(category_id: Long
                     ,label: String
                     ,description: String
-                    ,parentcategory_id : Long){
+                    ,subCategories: Array[Category]
+                    ,parentCategory : Category){
 
     object Categories {
 
